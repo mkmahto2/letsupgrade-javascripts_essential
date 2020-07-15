@@ -25,8 +25,9 @@ console.log(a);
 ~~~
 
 
-Question
-##  2 :
+
+ ##  Question 2 
+
 Write the difference between var, let and const with code examples.
 
 In Javascript one can define variables using the keywords var, let or const.
