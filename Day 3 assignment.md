@@ -45,3 +45,56 @@ Write a program to take marks as input from the user and grade him accordingly. 
 statements. Also the same code using switch or ternary
 input: 50
 Output : Marks are 50 and grade is B
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untitled document</title>
+<meta charset="utf-8" />
+<script language="javascript" type="text/javascript">
+function calculategpa()
+{
+var marks = document.getElementById("txtmarks").value;
+var gpa = document.getElementById("txtgpa");
+if(marks >= 50 && marks <= 60)
+{
+gpa.value = "E";
+}
+else if(marks >= 61 && marks <= 70)
+{
+gpa.value = "D";
+}
+else if(marks >= 71 && marks <= 80)
+{
+gpa.value = "C";
+}
+else if(marks >=81 && marks<=90)
+{
+gpa.value = "B";
+}
+else if(marks >=91)
+{
+gpa.value = "A";
+}
+
+}
+</script>
+</head>
+<body>
+<form action="" method="post" name="frm">
+<table width="471" height="257" border="1">
+<tr>
+<td>Enter Marks</td>
+<td><input type="text" name="txtmarks" id="txtmarks"></td>
+</tr>
+<tr>
+<td>GPA</td>
+<td><input type="text" name="txtgpa" id="txtgpa"></td>
+</tr>
+<tr>
+<td> </td>
+<td><input type="button" name="btn1" id="btn1" value="Calculate" onClick="calculategpa();"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
