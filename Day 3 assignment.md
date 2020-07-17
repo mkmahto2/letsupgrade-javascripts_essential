@@ -45,6 +45,7 @@ Write a program to take marks as input from the user and grade him accordingly. 
 statements. Also the same code using switch or ternary
 input: 50
 Output : Marks are 50 and grade is B
+~~~
 <!DOCTYPE html>
 <html>
 <head>
@@ -98,3 +99,4 @@ gpa.value = "A";
 </form>
 </body>
 </html>
+~~~
